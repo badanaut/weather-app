@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to bottom, #c5bebe, #487183);
+    height: 100vh;
+    margin: 0;
+    color: rgb(1, 96, 204);
+
+}
+
+header form{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 5vh;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    width: 30vw;
+}
+button{
+    border: none;
+    background: none;
+    color: white;
+}
+button:active{
+    transform: translateY(2px);
+}
+button:hover{
+    cursor: pointer;
+}
+.today-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+#temperature{
+    font-weight: bold;
+    font-size: 3em;
+}

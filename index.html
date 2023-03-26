@@ -11,8 +11,10 @@
 </head>
 <body>
     <header>
-        <input type="text" name="" id="search-input">
-        <button id="search"><span class="material-symbols-outlined">search</span></button>
+        <form>
+            <input type="text" name="" id="search-input" placeholder="Search for city..." pattern="A-Za-z" required>
+            <button id="search"><span class="material-symbols-outlined">search</span></button>
+        </form>
     </header>
     <div class="today-content">
         <div class="left-side">
@@ -22,16 +24,15 @@
             </div>
             <div class="weather-info">
                 <img src="#" alt="weather-icon" id="weather-icon">
-                <div id="temperature"></div>
                 <div id="condition-txt"></div>
+                <div id="temperature"></div>
+                
             </div>
         </div>
         <div class="right-side">
-            <div class="weather-details">
                 <div id="feels-like"></div>
                 <div id="air-humidity"></div>
                 <div id="wind-speed"></div>
-            </div>
         </div>
     </div>
     <footer></footer>
