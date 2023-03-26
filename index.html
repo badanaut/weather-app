@@ -6,9 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <input type="text" name="" id="search-input">
+        <button id="search"><span class="material-symbols-outlined">search</span></button>
+    </header>
+    <div class="today-content">
+        <div class="left-side">
+            <div class="city-info">
+                <h1 id="city-name"></h1>
+                <div id="time-info"></div>
+            </div>
+            <div class="weather-info">
+                <img src="#" alt="weather-icon" id="weather-icon">
+                <div id="temperature"></div>
+                <div id="condition-txt"></div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="weather-details">
+                <div id="feels-like"></div>
+                <div id="air-humidity"></div>
+                <div id="wind-speed"></div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
 </body>
 </html>
